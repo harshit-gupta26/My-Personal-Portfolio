@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- HEADER / NAVBAR -->
+  <header class="sticky top-0 bg-white shadow z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold">Brand</h1>
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="hover:text-indigo-600">Home</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#process" class="hover:text-indigo-600">Process</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#portfolio" class="hover:text-indigo-600">Portfolio</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <a href="cv.pdf" download class="bg-yellow-400 px-4 py-2 rounded-xl font-semibold shadow hover:bg-yellow-500">Download CV</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="bg-indigo-500 text-white">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-16">
+      <div class="max-w-lg space-y-4">
+        <h1 class="text-4xl md:text-5xl font-bold leading-tight">Hello, I'm <br><span class="text-yellow-300">Your Name</span> A UI/UX Designer</h1>
+        <p class="text-lg">I create beautiful, functional and user-friendly digital experiences.</p>
+        <a href="#contact" class="bg-yellow-400 text-black px-6 py-3 rounded-xl shadow hover:bg-yellow-500 inline-block">Get Started</a>
+      </div>
+      <img src="sherr.jpg" alt="Your Photo"   class="w-72 h-72 md:w-96 md:h-96 mt-8 md:mt-0 rounded-full object-cover shadow-lg" class="w-72 md:w-96 mt-8 md:mt-0">
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Expertise Service! Let's Check It Out</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+          <p>Create modern, intuitive interfaces & seamless experiences.</p>
+        </div>
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="text-xl font-semibold mb-2">Webflow Development</h3>
+          <p>Build responsive, scalable, and fast-loading websites.</p>
+        </div>
+        <div class="bg-white shadow rounded-2xl p-6">
+          <h3 class="text-xl font-semibold mb-2">Product Design</h3>
+          <p>Design products with strong usability and appealing visuals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-16">
+    <div class="container mx-auto flex flex-col md:flex-row items-center gap-12 px-6">
+      <img src="sherr.jpg" alt="About" class="w-72 md:w-96 rounded-2xl shadow">
+      <div class="max-w-lg space-y-4">
+        <h2 class="text-3xl font-bold">Designing Solutions, Not Just Visuals</h2>
+        <p>I solve real-world problems through design and strategy, not just aesthetics.</p>
+        <ul class="space-y-2 list-disc list-inside">
+          <li>Complete Project Solutions</li>
+          <li>Years of Experience</li>
+        </ul>
+        <a href="cv.pdf" download class="bg-yellow-400 px-6 py-3 rounded-xl shadow hover:bg-yellow-500 inline-block">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS SECTION -->
+  <section id="process" class="py-16 bg-gray-50 text-center">
+    <h2 class="text-3xl font-bold mb-12">My Working Process</h2>
+    <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Business Planning</h3>
+        <p>Understand your goals and plan accordingly.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Design Strategy</h3>
+        <p>Create wireframes and mockups for your idea.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Grow Your Business</h3>
+        <p>Launch and improve with feedback and iteration.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">What People Say’s About Me</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow p-6 rounded-2xl">
+          <p>“Amazing designer! Highly recommend.”</p>
+          <h4 class="mt-4 font-semibold">Client Name</h4>
+        </div>
+        <div class="bg-white shadow p-6 rounded-2xl">
+          <p>“Delivered exactly what I wanted on time.”</p>
+          <h4 class="mt-4 font-semibold">Client Name</h4>
+        </div>
+        <div class="bg-white shadow p-6 rounded-2xl">
+          <p>“Great communication and creative solutions.”</p>
+          <h4 class="mt-4 font-semibold">Client Name</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-12">Digital Product Showcases</h2>
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="project1.png" alt="Project 1">
+          <h3 class="p-4 font-semibold">Landing Page</h3>
+        </div>
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="project2.png" alt="Project 2">
+          <h3 class="p-4 font-semibold">Education Platform</h3>
+        </div>
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="project3.png" alt="Project 3">
+          <h3 class="p-4 font-semibold">Mobile App</h3>
+        </div>
+        <div class="bg-white shadow rounded-xl overflow-hidden">
+          <img src="project4.png" alt="Project 4">
+          <h3 class="p-4 font-semibold">Coffee Shop Page</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section id="contact" class="bg-indigo-500 text-white text-center py-16">
+    <h2 class="text-3xl font-bold mb-6">Got A Project? Let’s Talk</h2>
+    <a href="mailto:youremail@example.com" class="bg-yellow-400 px-6 py-3 rounded-xl shadow hover:bg-yellow-500 text-black">Contact Me</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 text-gray-300 py-8 text-center">
+    <h3 class="text-lg font-semibold mb-4">Subscribe To Get Latest Updates</h3>
+    <form class="flex justify-center gap-2 max-w-md mx-auto">
+      <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-xl w-full">
+      <button type="submit" class="bg-yellow-400 px-4 py-2 rounded-xl hover:bg-yellow-500 text-black">Subscribe</button>
+    </form>
+    <p class="mt-6 text-sm">© 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
